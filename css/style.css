@@ -1,0 +1,68 @@
+/*===============RESET CSS3===============*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Outfit', sem serifa;
+}
+
+p {
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    width: 251px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 20px;
+    color: var(--Dark-blue);
+    text-align: center;
+    margin: 5px auto;
+    max-width: 285px;
+}
+
+body {
+    background: var(--Light-gray);
+}
+
+
+/*===============ROOT COLORS===============*/
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+/*===============CARD===============*/
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 323px;
+    height: 490px;
+    margin: 50px auto;
+    background-color: var(--White);
+    border-radius: 15px;
+}
+
+
+/*===============Box-img===============*/
+
+.box-img {
+    background-color: yellow;
+    width: 290px;
+    height: 290px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.box-img img {
+    border-radius: 15px;
+}
