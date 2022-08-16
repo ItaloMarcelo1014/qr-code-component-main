@@ -27,6 +27,14 @@ h1 {
 body {
     background: var(--Light-gray);
 }
+  .attribution {
+      font-size: 11px;
+      text-align: center;
+}
+        
+.attribution a {
+       color: hsl(228, 45%, 44%);
+}
 
 
 /*===============ROOT COLORS===============*/
